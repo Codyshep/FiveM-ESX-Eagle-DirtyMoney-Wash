@@ -5,3 +5,5 @@ please make sure you have the following dependencies installed:
 
 ox_target: https://github.com/overextended/ox_target
 ox_lib: https://github.com/overextended/ox_lib
+
+Note: This script is for ESX Legacy Only!
