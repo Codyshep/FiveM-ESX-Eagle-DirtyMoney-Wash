@@ -43,8 +43,7 @@ local createMachine = function(veccoords)
                         local skillcheck = lib.skillCheck(skilldifficulty, keybinds)
                         if skillcheck then
                             notify('Notification', 'Washed Money!', 'success')
-                            TriggerServerEvent('eaglecore:giveitem', cleanmoney, input[1]/1.2)
-                            TriggerServerEvent('eaglecore:removeitem', dirtymoney, input[1])
+                            TriggerServerEvent('eaglecore:cleanmoney', input[1])
                         else
                             notify('Notification', 'Money Wash Failed!', 'error')
                         end
